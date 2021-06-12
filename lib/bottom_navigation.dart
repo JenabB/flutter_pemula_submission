@@ -11,8 +11,9 @@ class _HalamannavState extends State {
   int _selectedIndex = 0;
 
   final _widgetOptions = [
-    MainScreen(),
     BelajarGetData(),
+    MainScreen(),
+    
     About(),
   ];
 
