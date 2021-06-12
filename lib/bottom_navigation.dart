@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_pemula_submission/mainscreen.dart';
 import 'package:flutter_pemula_submission/about.dart';
-
+import 'package:flutter_pemula_submission/get_weather.dart';
 class Halamannav extends StatefulWidget {
   @override
   _HalamannavState createState() => _HalamannavState();
@@ -12,7 +12,7 @@ class _HalamannavState extends State {
 
   final _widgetOptions = [
     MainScreen(),
-    MainScreen(),
+    BelajarGetData(),
     About(),
   ];
 
@@ -23,16 +23,16 @@ class _HalamannavState extends State {
       bottomNavigationBar: BottomNavigationBar(
           items: [
             BottomNavigationBarItem(
-              icon: Icon(Icons.pin_drop),
-              title: Text('Satu'),
+              icon: Icon(Icons.home),
+              title: Text('Home'),
             ),
             BottomNavigationBarItem(
-              icon: Icon(Icons.view_compact),
-              title: Text('Dua'),
+              icon: Icon(Icons.wb_sunny),
+              title: Text('Forecast'),
             ),
             BottomNavigationBarItem(
-              icon: Icon(Icons.library_books),
-              title: Text('Tiga'),
+              icon: Icon(Icons.priority_high),
+              title: Text('About'),
             ),
           ],
           type: BottomNavigationBarType.fixed,

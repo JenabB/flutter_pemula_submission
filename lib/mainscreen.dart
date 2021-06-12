@@ -14,6 +14,7 @@ class MainScreen extends StatelessWidget {
           backgroundColor: Colors.teal,
           title: Text(
             'PagarAlam Travel',
+            textAlign: TextAlign.center,
             style: TextStyle(color: Colors.white),
           )),
      body: LayoutBuilder(
