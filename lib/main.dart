@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_pemula_submission/mainscreen.dart';
+
+import 'package:flutter_pemula_submission/bottom_navigation.dart';
 
 void main() => runApp(MyApp());
 
@@ -10,6 +11,6 @@ class MyApp extends StatelessWidget {
         title: 'PagarAlam Travel', theme: ThemeData(
         fontFamily: 'Poppins',
         primarySwatch: Colors.blue,
-      ), home: MainScreen());
+      ), home: Halamannav());
   }
 }
